@@ -1,0 +1,43 @@
+ .join {
+     background-color: white;
+     color: rgb(0, 179, 255);
+     border-color: rgb(0, 191, 255);
+     border-style: solid;
+     border-width: 1px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     padding-left: 25px;
+     padding-right: 25px;
+     cursor: pointer;
+     border-radius: 2px;
+     margin-left: 8px;
+     margin-right: 8px;
+     transition: background-color 0.15s, color 0.15s;
+ }
+
+ .join:hover {
+     background-color: rgb(0, 179, 255);
+     color: white;
+ }
+
+ .join:active {
+     opacity: 0.7;
+ }
+
+ .tweet-button {
+     background-color: rgb(0, 213, 255);
+     border: none;
+     color: white;
+     height: 48px;
+     width: 90px;
+     border-radius: 24px;
+     font-weight: bold;
+     font-size: 15px;
+     cursor: pointer;
+     transition: box-shadow 0.15s;
+ }
+
+ .tweet-button:hover {
+     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+
+ }

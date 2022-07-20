@@ -1,0 +1,22 @@
+.title{
+    font-family: Montserrat ;
+    font-weight: 700;
+    font-size: large;
+
+}
+.description{
+    font-family: Montserrat;
+    font-weight: 400;
+
+}
+
+.link{
+    text-decoration: underline;
+    transition: color 0.15s;
+    font-weight: 500;
+}
+.link:hover{
+    cursor: pointer;
+    color:grey;
+
+}

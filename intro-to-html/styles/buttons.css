@@ -1,0 +1,39 @@
+p {
+    font-family: verdana;
+
+}
+
+.title-section {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.description-section {
+    color: grey;
+    margin-top: 0px;
+
+}
+
+.course-description {
+    width: 300px;
+    line-height: 25px;
+}
+
+.know-button {
+    padding: 10px 10px;
+    font-family: verdana;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 30px;
+    width: 150px;
+    background-color: grey;
+    cursor: pointer;
+    transition: color, text-decoration 0.15s;
+}
+
+.know-button:hover {
+    color: grey;
+    background-color: white;
+    text-decoration: underline;
+}
